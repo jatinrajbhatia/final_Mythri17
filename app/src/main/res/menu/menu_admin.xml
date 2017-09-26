@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/register_coordinator"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Register Coordinator" />
+        <item
+            android:id="@+id/view_all"
+            android:icon="@drawable/current"
+            android:title="View All" />
+        <item
+            android:id="@+id/view_fixtures"
+            android:icon="@drawable/about_app"
+            android:title="View Fixtures" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/log_out_24dp"
+            android:title="Logout" />
+
+        <item
+            android:id="@+id/share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share" />
+    </group>
+</menu>
